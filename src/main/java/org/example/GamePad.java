@@ -3,9 +3,9 @@ package org.example;
 public class GamePad
 {
     // buttons
-    public boolean x = false;
-    public boolean b = false;
     public boolean a = false;
+    public boolean b = false;
+    public boolean x = false;
     public boolean y = false;
 
     // Dpad
@@ -27,4 +27,5 @@ public class GamePad
 
 
     public boolean back = false;
+    public boolean start = false;
 }
